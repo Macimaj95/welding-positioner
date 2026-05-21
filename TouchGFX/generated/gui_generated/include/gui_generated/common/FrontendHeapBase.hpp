@@ -12,8 +12,16 @@
 #include <gui/common/FrontendApplication.hpp>
 #include <gui/model/Model.hpp>
 
-#include <gui/homescreen_screen/HomeScreenView.hpp>
-#include <gui/homescreen_screen/HomeScreenPresenter.hpp>
+#include <gui/s000_main_screen/S000_MainView.hpp>
+#include <gui/s000_main_screen/S000_MainPresenter.hpp>
+#include <gui/s100_home_screen/S100_HomeView.hpp>
+#include <gui/s100_home_screen/S100_HomePresenter.hpp>
+#include <gui/s200_settings_screen/S200_SettingsView.hpp>
+#include <gui/s200_settings_screen/S200_SettingsPresenter.hpp>
+#include <gui/s300_lang_screen/S300_LangView.hpp>
+#include <gui/s300_lang_screen/S300_LangPresenter.hpp>
+#include <gui/s400_info_screen/S400_InfoView.hpp>
+#include <gui/s400_info_screen/S400_InfoPresenter.hpp>
 
 
 /**
@@ -36,8 +44,12 @@ public:
      * A list of all view types. Must end with meta::Nil.
      * @note All view types used in the application MUST be added to this list!
      */
-    typedef touchgfx::meta::TypeList< HomeScreenView,
-            touchgfx::meta::Nil
+    typedef touchgfx::meta::TypeList< S000_MainView,
+            touchgfx::meta::TypeList< S100_HomeView,
+            touchgfx::meta::TypeList< S200_SettingsView,
+            touchgfx::meta::TypeList< S300_LangView,
+            touchgfx::meta::TypeList< S400_InfoView,
+            touchgfx::meta::Nil > > > >
             > GeneratedViewTypes;
 
     /**
@@ -49,8 +61,12 @@ public:
      * A list of all presenter types. Must end with meta::Nil.
      * @note All presenter types used in the application MUST be added to this list!
      */
-    typedef touchgfx::meta::TypeList< HomeScreenPresenter,
-            touchgfx::meta::Nil
+    typedef touchgfx::meta::TypeList< S000_MainPresenter,
+            touchgfx::meta::TypeList< S100_HomePresenter,
+            touchgfx::meta::TypeList< S200_SettingsPresenter,
+            touchgfx::meta::TypeList< S300_LangPresenter,
+            touchgfx::meta::TypeList< S400_InfoPresenter,
+            touchgfx::meta::Nil > > > >
             > GeneratedPresenterTypes;
 
     /**
@@ -73,7 +89,7 @@ public:
 
     virtual void gotoStartScreen(FrontendApplication& app)
     {
-        app.gotoHomeScreenScreenNoTransition();
+        app.gotoS000_MainScreenNoTransition();
     }
 protected:
     FrontendHeapBase(touchgfx::AbstractPartition& presenters, touchgfx::AbstractPartition& views, touchgfx::AbstractPartition& transitions, FrontendApplication& app)

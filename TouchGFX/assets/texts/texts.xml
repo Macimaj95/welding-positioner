@@ -2,12 +2,20 @@
 <TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.26.1">
   <Languages>
     <Language Id="GB" />
+    <Language Id="PL" />
   </Languages>
   <Texts>
     <TextGroup Id="Group1" />
+    <TextGroup Id="ScreenNames">
+      <Text Id="TopMenuText" Alignment="Center" TypographyId="ValuesType">
+        <Translation Language="GB">Main</Translation>
+        <Translation Language="PL">Główny</Translation>
+      </Text>
+    </TextGroup>
     <TextGroup Id="Unsorted">
-      <Text Id="HomeMenuText" Alignment="Center" TypographyId="ValuesType">
-        <Translation Language="GB">Główny</Translation>
+      <Text Id="ResourceId1" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">New Text</Translation>
+        <Translation Language="PL">New Text</Translation>
       </Text>
     </TextGroup>
   </Texts>

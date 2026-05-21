@@ -8,8 +8,16 @@
 #include <texts/TextKeysAndLanguages.hpp>
 #include <touchgfx/Texts.hpp>
 #include <touchgfx/hal/HAL.hpp>
-#include <gui/homescreen_screen/HomeScreenView.hpp>
-#include <gui/homescreen_screen/HomeScreenPresenter.hpp>
+#include <gui/s000_main_screen/S000_MainView.hpp>
+#include <gui/s000_main_screen/S000_MainPresenter.hpp>
+#include <gui/s100_home_screen/S100_HomeView.hpp>
+#include <gui/s100_home_screen/S100_HomePresenter.hpp>
+#include <gui/s200_settings_screen/S200_SettingsView.hpp>
+#include <gui/s200_settings_screen/S200_SettingsPresenter.hpp>
+#include <gui/s300_lang_screen/S300_LangView.hpp>
+#include <gui/s300_lang_screen/S300_LangPresenter.hpp>
+#include <gui/s400_info_screen/S400_InfoView.hpp>
+#include <gui/s400_info_screen/S400_InfoPresenter.hpp>
 
 using namespace touchgfx;
 
@@ -20,21 +28,22 @@ FrontendApplicationBase::FrontendApplicationBase(Model& m, FrontendHeap& heap)
       model(m)
 {
     touchgfx::HAL::getInstance()->setDisplayOrientation(touchgfx::ORIENTATION_LANDSCAPE);
+    touchgfx::Texts::setLanguage(GB);
 }
 
 /*
  * Screen Transition Declarations
  */
 
-// HomeScreen
+// S000_Main
 
-void FrontendApplicationBase::gotoHomeScreenScreenNoTransition()
+void FrontendApplicationBase::gotoS000_MainScreenNoTransition()
 {
-    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplicationBase::gotoHomeScreenScreenNoTransitionImpl);
+    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplicationBase::gotoS000_MainScreenNoTransitionImpl);
     pendingScreenTransitionCallback = &transitionCallback;
 }
 
-void FrontendApplicationBase::gotoHomeScreenScreenNoTransitionImpl()
+void FrontendApplicationBase::gotoS000_MainScreenNoTransitionImpl()
 {
-    touchgfx::makeTransition<HomeScreenView, HomeScreenPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+    touchgfx::makeTransition<S000_MainView, S000_MainPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }

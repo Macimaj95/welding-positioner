@@ -7,11 +7,14 @@
 enum LANGUAGES
 {
     GB,
+    PL,
     NUMBER_OF_LANGUAGES
 };
 
 enum TEXTS
 {
+    T_TOPMENUTEXT,
+    T_RESOURCEID1,
     NUMBER_OF_TEXT_KEYS
 };
 
