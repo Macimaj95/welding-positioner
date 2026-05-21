@@ -3,7 +3,41 @@
     "Screens": [
       {
         "Name": "HomeScreen",
-        "Components": [],
+        "CanvasBufferSize": 1920,
+        "Components": [
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "Y": 16,
+            "Width": 128,
+            "Height": 2,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 2.0,
+            "EndX": 126.0,
+            "LineWidth": 2.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Container",
+            "Name": "container1",
+            "Y": 18,
+            "Width": 250,
+            "Height": 46,
+            "Components": []
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "Width": 128,
+            "Height": 16,
+            "TextId": "HomeMenuText",
+            "TextRotation": "0"
+          }
+        ],
         "Interactions": []
       }
     ],
