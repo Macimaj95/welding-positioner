@@ -7,14 +7,48 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="ScreenNames">
-      <Text Id="TopMenuText" Alignment="Center" TypographyId="ValuesType">
+      <Text Id="InfoScrName" Alignment="Center" TypographyId="TopicType">
+        <Translation Language="GB">Info</Translation>
+        <Translation Language="PL">Info</Translation>
+      </Text>
+      <Text Id="LangScrName" Alignment="Center" TypographyId="TopicType">
+        <Translation Language="GB">Language</Translation>
+        <Translation Language="PL">Język</Translation>
+      </Text>
+      <Text Id="SettingsScrName" Alignment="Center" TypographyId="TopicType">
+        <Translation Language="GB">Settings</Translation>
+        <Translation Language="PL">Ustawienia</Translation>
+      </Text>
+      <Text Id="MainsScrName" Alignment="Center" TypographyId="TopicType">
         <Translation Language="GB">Main</Translation>
         <Translation Language="PL">Główny</Translation>
       </Text>
     </TextGroup>
+    <TextGroup Id="InfoText">
+      <Text Id="SwVerText" Alignment="Left" TypographyId="TopicType">
+        <Translation Language="GB">SW: &lt;version&gt;</Translation>
+        <Translation Language="PL">SW: &lt;version&gt;</Translation>
+      </Text>
+      <Text Id="HwVerText" Alignment="Left" TypographyId="TopicType">
+        <Translation Language="GB">HW: &lt;version&gt;</Translation>
+        <Translation Language="PL">HW: &lt;version&gt;</Translation>
+      </Text>
+      <Text Id="GitText" Alignment="Left" TypographyId="TopicType">
+        <Translation Language="GB">Github.com/Macimaj95</Translation>
+        <Translation Language="PL">Github.com/Macimaj95</Translation>
+      </Text>
+      <Text Id="AuthorText" Alignment="Right" TypographyId="TopicType">
+        <Translation Language="GB">Author: M. Majewski</Translation>
+        <Translation Language="PL">Autor: M. Majewski</Translation>
+      </Text>
+    </TextGroup>
     <TextGroup Id="Unsorted">
-      <Text Id="ResourceId1" Alignment="Left" TypographyId="ValuesType">
-        <Translation Language="GB">New Text</Translation>
+      <Text Id="__SingleUse_O7MV" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">xx.xx.xx</Translation>
+        <Translation Language="PL">New Text</Translation>
+      </Text>
+      <Text Id="__SingleUse_VAUG" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">xx.xx.xx</Translation>
         <Translation Language="PL">New Text</Translation>
       </Text>
     </TextGroup>
