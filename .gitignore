@@ -1,5 +1,9 @@
 # Prerequisites
 *.d
+*.cyclo
+
+# Keys
+*.pem
 
 # Object files
 *.o
@@ -50,3 +54,34 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+Debug/Core/Src/gpio.cyclo
+Debug/Core/Src/main.cyclo
+Release
+*.cyclo
+/Debug
+*.cyclo
+Debug/Core/Sonictech/Controller/auto_conf.cyclo
+/Debug
+Debug/Core/Sonictech/Modbus/Src/modbus_master.cyclo
+Debug/Core/Sonictech/Modbus/Src/modbus_serial.cyclo
+
+publish_spec.json
+
+Debug
+
+keys.h
+private_key.pem
+public_key.pem
+aes_key.bin
+Release
+Secrets
+ed25519_private_key.pem
+ed25519_public_key.pem
+
+/Scripts/__pycache__
+
+sig_private_key.pem
+
+sig_public_key.pem
+
+TouchGFX/generated
