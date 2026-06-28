@@ -24,30 +24,30 @@ S000_MainViewBase::S000_MainViewBase()
     top_bar.setLineEndingStyle(touchgfx::Line::ROUND_CAP_ENDING);
     add(top_bar);
 
-    container1.setPosition(0, 18, 250, 46);
-    meter_menu.setXY(48, 7);
-    meter_menu.setBitmap(touchgfx::Bitmap(BITMAP_HOUSE_48_ID));
-    container1.add(meter_menu);
+    menuContentCtr.setPosition(0, 18, 250, 46);
+    infoMenuImg.setXY(192, 7);
+    infoMenuImg.setBitmap(touchgfx::Bitmap(BITMAP_INFO_ID));
+    menuContentCtr.add(infoMenuImg);
 
-    setting.setXY(96, 7);
-    setting.setBitmap(touchgfx::Bitmap(BITMAP_SETTINGS_24_64_ID));
-    container1.add(setting);
+    meterMenuImg.setXY(48, 7);
+    meterMenuImg.setBitmap(touchgfx::Bitmap(BITMAP_HOUSE_48_ID));
+    menuContentCtr.add(meterMenuImg);
 
-    lang_menu.setXY(145, 7);
-    lang_menu.setBitmap(touchgfx::Bitmap(BITMAP_LANGUAGE_ID));
-    container1.add(lang_menu);
+    settingMenuImg.setXY(96, 7);
+    settingMenuImg.setBitmap(touchgfx::Bitmap(BITMAP_SETTINGS_24_64_ID));
+    menuContentCtr.add(settingMenuImg);
 
-    add(container1);
+    langMenuImg.setXY(144, 7);
+    langMenuImg.setBitmap(touchgfx::Bitmap(BITMAP_LANGUAGE_ID));
+    menuContentCtr.add(langMenuImg);
+
+    add(menuContentCtr);
 
     ScreenNameTxt.setPosition(0, 0, 128, 16);
-    ScreenNameTxt.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    ScreenNameTxt.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     ScreenNameTxt.setLinespacing(0);
-    ScreenNameTxt.setTypedText(touchgfx::TypedText(T_TOPMENUTEXT));
+    ScreenNameTxt.setTypedText(touchgfx::TypedText(T_MAINSSCRNAME));
     add(ScreenNameTxt);
-
-    image1.setXY(199, 25);
-    image1.setBitmap(touchgfx::Bitmap(BITMAP_INFO_ID));
-    add(image1);
 }
 
 S000_MainViewBase::~S000_MainViewBase()
@@ -57,5 +57,13 @@ S000_MainViewBase::~S000_MainViewBase()
 
 void S000_MainViewBase::setupScreen()
 {
+    transitionBegins();
+}
 
+void S000_MainViewBase::transitionBegins()
+{
+    //Init
+    //When screen transition begins call actInitScreen on S000_Main
+    //Call actInitScreen
+    actInitScreen();
 }

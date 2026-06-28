@@ -24,9 +24,9 @@ S300_LangViewBase::S300_LangViewBase()
     add(top_bar);
 
     ScreenNameTxt.setPosition(0, 0, 128, 16);
-    ScreenNameTxt.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    ScreenNameTxt.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     ScreenNameTxt.setLinespacing(0);
-    ScreenNameTxt.setTypedText(touchgfx::TypedText(T_TOPMENUTEXT));
+    ScreenNameTxt.setTypedText(touchgfx::TypedText(T_LANGSCRNAME));
     add(ScreenNameTxt);
 }
 

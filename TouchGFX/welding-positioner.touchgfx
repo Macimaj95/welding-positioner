@@ -228,8 +228,8 @@
             "Name": "textArea1",
             "X": 2,
             "Y": 2,
-            "Width": 109,
-            "Height": 14,
+            "Width": 103,
+            "Height": 12,
             "TextId": "AuthorText",
             "TextRotation": "0",
             "Color": {
@@ -244,8 +244,8 @@
             "Name": "textArea1_1_1",
             "X": 2,
             "Y": 14,
-            "Width": 125,
-            "Height": 14,
+            "Width": 114,
+            "Height": 12,
             "TextId": "GitText",
             "TextRotation": "0",
             "Color": {
@@ -254,48 +254,6 @@
               "Blue": 255
             },
             "AutoSize": true
-          },
-          {
-            "Type": "TextArea",
-            "Name": "textArea1_1_1_1",
-            "X": 2,
-            "Y": 26,
-            "Width": 67,
-            "Height": 14,
-            "TextId": "SwVerText",
-            "TextRotation": "0",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "AutoSize": true,
-            "Wildcard1": {
-              "TextId": "__SingleUse_VAUG",
-              "UseBuffer": true,
-              "BufferSize": 8
-            }
-          },
-          {
-            "Type": "TextArea",
-            "Name": "textArea1_1_1_1_1",
-            "X": 2,
-            "Y": 38,
-            "Width": 68,
-            "Height": 14,
-            "TextId": "HwVerText",
-            "TextRotation": "0",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "AutoSize": true,
-            "Wildcard1": {
-              "TextId": "__SingleUse_O7MV",
-              "UseBuffer": true,
-              "BufferSize": 10
-            }
           }
         ],
         "Interactions": []

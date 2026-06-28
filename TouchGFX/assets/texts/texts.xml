@@ -5,7 +5,6 @@
     <Language Id="PL" />
   </Languages>
   <Texts>
-    <TextGroup Id="Group1" />
     <TextGroup Id="ScreenNames">
       <Text Id="InfoScrName" Alignment="Center" TypographyId="TopicType">
         <Translation Language="GB">Info</Translation>
@@ -33,30 +32,20 @@
         <Translation Language="GB">HW: &lt;version&gt;</Translation>
         <Translation Language="PL">HW: &lt;version&gt;</Translation>
       </Text>
-      <Text Id="GitText" Alignment="Left" TypographyId="TopicType">
-        <Translation Language="GB">Github.com/Macimaj95</Translation>
+      <Text Id="GitText" Alignment="Left" TypographyId="MainScreenNameType">
+        <Translation Language="GB">github.com/Macimaj95</Translation>
         <Translation Language="PL">Github.com/Macimaj95</Translation>
       </Text>
-      <Text Id="AuthorText" Alignment="Right" TypographyId="TopicType">
+      <Text Id="AuthorText" Alignment="Right" TypographyId="MainScreenNameType">
         <Translation Language="GB">Author: M. Majewski</Translation>
         <Translation Language="PL">Autor: M. Majewski</Translation>
       </Text>
     </TextGroup>
-    <TextGroup Id="Unsorted">
-      <Text Id="__SingleUse_O7MV" Alignment="Left" TypographyId="ValuesType">
-        <Translation Language="GB">xx.xx.xx</Translation>
-        <Translation Language="PL">New Text</Translation>
-      </Text>
-      <Text Id="__SingleUse_VAUG" Alignment="Left" TypographyId="ValuesType">
-        <Translation Language="GB">xx.xx.xx</Translation>
-        <Translation Language="PL">New Text</Translation>
-      </Text>
-    </TextGroup>
   </Texts>
   <Typographies>
-    <Typography Id="ValuesType" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" IsCompressed="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
-    <Typography Id="MainScreenNameType" Font="arial.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
-    <Typography Id="TopicType" Font="arial.ttf" Size="12" Bpp="4" IsVector="no" IsCompressed="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
-    <Typography Id="HomeScreenText" Font="arial.ttf" Size="18" Bpp="4" IsVector="no" IsCompressed="yes" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="ValuesType" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="MainScreenNameType" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="TopicType" Font="verdana.ttf" Size="12" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="HomeScreenText" Font="verdana.ttf" Size="18" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
   </Typographies>
 </TextDatabase>

@@ -24,9 +24,9 @@ S200_SettingsViewBase::S200_SettingsViewBase()
     add(top_bar);
 
     ScreenNameTxt.setPosition(0, 0, 128, 16);
-    ScreenNameTxt.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    ScreenNameTxt.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     ScreenNameTxt.setLinespacing(0);
-    ScreenNameTxt.setTypedText(touchgfx::TypedText(T_TOPMENUTEXT));
+    ScreenNameTxt.setTypedText(touchgfx::TypedText(T_SETTINGSSCRNAME));
     add(ScreenNameTxt);
 }
 

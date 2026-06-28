@@ -20,6 +20,36 @@ public:
     S000_MainViewBase();
     virtual ~S000_MainViewBase();
     virtual void setupScreen();
+    virtual void transitionBegins();
+
+    /*
+     * Custom Actions
+     */
+    virtual void actHomeMeSel()
+    {
+        // Override and implement this function in Screen1
+    }
+    
+    virtual void actSettMeSel()
+    {
+        // Override and implement this function in Screen1
+    }
+    
+    virtual void actLangMeSel()
+    {
+        // Override and implement this function in Screen1
+    }
+    
+    virtual void actInfoSel()
+    {
+        // Override and implement this function in Screen1
+    }
+    
+    virtual void actInitScreen()
+    {
+        // Override and implement this function in Screen1
+    }
+    
 
 protected:
     FrontendApplication& application() {
@@ -32,12 +62,12 @@ protected:
     touchgfx::Box __background;
     touchgfx::Line top_bar;
     touchgfx::PainterBW top_barPainter;
-    touchgfx::Container container1;
-    touchgfx::Image meter_menu;
-    touchgfx::Image setting;
-    touchgfx::Image lang_menu;
+    touchgfx::Container menuContentCtr;
+    touchgfx::Image infoMenuImg;
+    touchgfx::Image meterMenuImg;
+    touchgfx::Image settingMenuImg;
+    touchgfx::Image langMenuImg;
     touchgfx::TextArea ScreenNameTxt;
-    touchgfx::Image image1;
 
 private:
 

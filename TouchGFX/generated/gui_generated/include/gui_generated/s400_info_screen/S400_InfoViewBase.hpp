@@ -8,8 +8,6 @@
 #include <mvp/View.hpp>
 #include <gui/s400_info_screen/S400_InfoPresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
-#include <touchgfx/widgets/canvas/Line.hpp>
-#include <touchgfx/widgets/canvas/PainterBW.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
 
 class S400_InfoViewBase : public touchgfx::View<S400_InfoPresenter>
@@ -28,17 +26,10 @@ protected:
      * Member Declarations
      */
     touchgfx::Box __background;
-    touchgfx::Line top_bar;
-    touchgfx::PainterBW top_barPainter;
-    touchgfx::TextArea ScreenNameTxt;
+    touchgfx::TextArea textArea1;
+    touchgfx::TextArea textArea1_1_1;
 
 private:
-
-    /*
-     * Canvas Buffer Size
-     */
-    static const uint32_t CANVAS_BUFFER_SIZE = 1920;
-    uint8_t canvasBuffer[CANVAS_BUFFER_SIZE];
 
 };
 

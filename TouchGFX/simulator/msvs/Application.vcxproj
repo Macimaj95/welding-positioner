@@ -19,11 +19,23 @@
     <ClCompile Include="$(ApplicationRoot)\generated\simulator\src\mainBase.cpp"/>
     <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp"/>
     <ClCompile Include="..\..\generated\gui_generated\src\common\FrontendApplicationBase.cpp"/>
-    <ClCompile Include="..\..\gui\src\homescreen_screen\HomeScreenPresenter.cpp"/>
-    <ClCompile Include="..\..\gui\src\homescreen_screen\HomeScreenView.cpp"/>
-    <ClCompile Include="..\..\generated\gui_generated\src\homescreen_screen\HomeScreenViewBase.cpp"/>
     <ClCompile Include="..\..\gui\src\model\Model.cpp"/>
     <ClCompile Include="..\..\generated\simulator\src\video\SoftwareMJPEGDecoder.cpp"/>
+    <ClCompile Include="..\..\gui\src\s000_main_screen\S000_MainPresenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\s000_main_screen\S000_MainView.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\s000_main_screen\S000_MainViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\s100_home_screen\S100_HomePresenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\s100_home_screen\S100_HomeView.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\s100_home_screen\S100_HomeViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\s200_settings_screen\S200_SettingsPresenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\s200_settings_screen\S200_SettingsView.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\s200_settings_screen\S200_SettingsViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\s300_lang_screen\S300_LangPresenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\s300_lang_screen\S300_LangView.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\s300_lang_screen\S300_LangViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\s400_info_screen\S400_InfoPresenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\s400_info_screen\S400_InfoView.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\s400_info_screen\S400_InfoViewBase.cpp"/>
   </ItemGroup>
   <ItemGroup>
     <None Include="$(ApplicationRoot)\assets\texts\texts.xml"/>
@@ -169,14 +181,26 @@
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\FrontendApplicationBase.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\common\FrontendHeap.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\FrontendHeapBase.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\homescreen_screen\HomeScreenPresenter.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\homescreen_screen\HomeScreenView.hpp"/>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\homescreen_screen\HomeScreenViewBase.hpp"/>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\MJPEGDecoder.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\model\Model.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\model\ModelListener.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\SimConstants.hpp"/>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\SoftwareMJPEGDecoder.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\s000_main_screen\S000_MainPresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\s000_main_screen\S000_MainView.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\s000_main_screen\S000_MainViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\s100_home_screen\S100_HomePresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\s100_home_screen\S100_HomeView.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\s100_home_screen\S100_HomeViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\s200_settings_screen\S200_SettingsPresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\s200_settings_screen\S200_SettingsView.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\s200_settings_screen\S200_SettingsViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\s300_lang_screen\S300_LangPresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\s300_lang_screen\S300_LangView.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\s300_lang_screen\S300_LangViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\s400_info_screen\S400_InfoPresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\s400_info_screen\S400_InfoView.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\s400_info_screen\S400_InfoViewBase.hpp"/>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(ApplicationRoot)\generated\simulator\touchgfx.rc"/>

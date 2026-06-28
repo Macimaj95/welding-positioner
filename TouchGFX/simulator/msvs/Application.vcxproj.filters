@@ -136,17 +136,11 @@
     <Filter Include="Source Files\gui">
       <UniqueIdentifier>89B00ED9-174B-C2D1-ABC7-903CD805D912</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\gui\homescreen_screen">
-      <UniqueIdentifier>7C3A7FEC-764D-C47E-99D2-C4EFE1E17776</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\generated\gui_generated">
       <UniqueIdentifier>DECF2002-3335-94CB-35C5-123D6FB0A777</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\generated\gui_generated">
       <UniqueIdentifier>2757E7FE-3751-4EA4-FD7B-E33D9DDFED92</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\gui\homescreen_screen">
-      <UniqueIdentifier>5A4A2B03-5D69-02A3-9A22-0AB2E44A57AF</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\gui\common">
       <UniqueIdentifier>698F7202-5C18-BE4B-132F-C74F0547C764</UniqueIdentifier>
@@ -166,12 +160,6 @@
     <Filter Include="Header Files\generated\simulator\include">
       <UniqueIdentifier>9F8C846D-F8EB-71AA-D42A-B5CDAE22375A</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\generated\gui_generated\homescreen_screen">
-      <UniqueIdentifier>9935855D-DCBE-79AD-7AD2-D6E54823A360</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\generated\gui_generated\homescreen_screen">
-      <UniqueIdentifier>5239E605-7A68-6F44-C7B4-18FDA80C097B</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\generated\gui_generated\common">
       <UniqueIdentifier>DF8B2B21-1F4E-14AA-4C10-0DF7D46381E6</UniqueIdentifier>
     </Filter>
@@ -183,6 +171,66 @@
     </Filter>
     <Filter Include="Header Files\generated\simulator\include\simulator\video">
       <UniqueIdentifier>74C5F82A-BCED-8BC7-6677-ED643F326F21</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\s200_settings_screen">
+      <UniqueIdentifier>186F6E13-EF6C-E553-4D5D-4AEB2FE1956C</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\s200_settings_screen">
+      <UniqueIdentifier>724BB131-52C7-11CF-8805-D775D31587E2</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\s100_home_screen">
+      <UniqueIdentifier>1568D51E-F917-F040-64D0-8926FCA389BD</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\s300_lang_screen">
+      <UniqueIdentifier>92326E15-9771-2E51-9AB3-E12A3E51E47E</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\s100_home_screen">
+      <UniqueIdentifier>2633C2C7-CBE9-5719-D8F5-DAE9A9DAEE0C</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\s300_lang_screen">
+      <UniqueIdentifier>0432500C-E45C-4441-629E-23DD2603B56B</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\s400_info_screen">
+      <UniqueIdentifier>C6CB3A5B-0330-573B-8F64-D1B1E11CDD14</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\s000_main_screen">
+      <UniqueIdentifier>91D76C1D-0B35-1770-A0E0-17AF71BAD081</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\s000_main_screen">
+      <UniqueIdentifier>12277B31-3343-55FC-3661-03F48B5B133D</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\s400_info_screen">
+      <UniqueIdentifier>DE0CCD3F-163B-EC1D-3E54-B2D2B7036CFE</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\s300_lang_screen">
+      <UniqueIdentifier>E3505D65-94B8-3C53-F890-1D004EAC8EDD</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\s300_lang_screen">
+      <UniqueIdentifier>02A9252D-DF39-E5D5-4C55-A583201CCF8E</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\s400_info_screen">
+      <UniqueIdentifier>F6131C14-F171-AE92-6AAB-0350A910E6D4</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\s000_main_screen">
+      <UniqueIdentifier>53AC0DB2-EE97-48A3-A708-3A0B0590EC84</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\s200_settings_screen">
+      <UniqueIdentifier>B5657E06-B2DB-3847-5C41-0A49835DFC40</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\s200_settings_screen">
+      <UniqueIdentifier>94E7FB2D-8C07-638B-863D-A8F74BE5C36F</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\s400_info_screen">
+      <UniqueIdentifier>92528FBE-23AC-3660-0000-03FA72720214</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\s100_home_screen">
+      <UniqueIdentifier>42E05428-82E5-E37A-1F6F-7AB2BCDB6CF2</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\s100_home_screen">
+      <UniqueIdentifier>2ED8B318-9809-E912-434E-E2ECCAF423F3</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\s000_main_screen">
+      <UniqueIdentifier>D1284E69-AC0C-AA38-6B38-902673B14459</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -210,20 +258,56 @@
     <ClCompile Include="..\..\generated\gui_generated\src\common\FrontendApplicationBase.cpp">
       <Filter>Source Files\generated\gui_generated\common</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\homescreen_screen\HomeScreenPresenter.cpp">
-      <Filter>Source Files\gui\homescreen_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\homescreen_screen\HomeScreenView.cpp">
-      <Filter>Source Files\gui\homescreen_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\homescreen_screen\HomeScreenViewBase.cpp">
-      <Filter>Source Files\generated\gui_generated\homescreen_screen</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\gui\src\model\Model.cpp">
       <Filter>Source Files\gui\model</Filter>
     </ClCompile>
     <ClCompile Include="..\..\generated\simulator\src\video\SoftwareMJPEGDecoder.cpp">
       <Filter>Source Files\generated\simulator\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\s000_main_screen\S000_MainPresenter.cpp">
+      <Filter>Source Files\gui\s000_main_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\s000_main_screen\S000_MainView.cpp">
+      <Filter>Source Files\gui\s000_main_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\s000_main_screen\S000_MainViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\s000_main_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\s100_home_screen\S100_HomePresenter.cpp">
+      <Filter>Source Files\gui\s100_home_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\s100_home_screen\S100_HomeView.cpp">
+      <Filter>Source Files\gui\s100_home_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\s100_home_screen\S100_HomeViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\s100_home_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\s200_settings_screen\S200_SettingsPresenter.cpp">
+      <Filter>Source Files\gui\s200_settings_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\s200_settings_screen\S200_SettingsView.cpp">
+      <Filter>Source Files\gui\s200_settings_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\s200_settings_screen\S200_SettingsViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\s200_settings_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\s300_lang_screen\S300_LangPresenter.cpp">
+      <Filter>Source Files\gui\s300_lang_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\s300_lang_screen\S300_LangView.cpp">
+      <Filter>Source Files\gui\s300_lang_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\s300_lang_screen\S300_LangViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\s300_lang_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\s400_info_screen\S400_InfoPresenter.cpp">
+      <Filter>Source Files\gui\s400_info_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\s400_info_screen\S400_InfoView.cpp">
+      <Filter>Source Files\gui\s400_info_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\s400_info_screen\S400_InfoViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\s400_info_screen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -652,15 +736,6 @@
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\FrontendHeapBase.hpp">
       <Filter>Header Files\generated\gui_generated\common</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\homescreen_screen\HomeScreenPresenter.hpp">
-      <Filter>Header Files\gui\homescreen_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\homescreen_screen\HomeScreenView.hpp">
-      <Filter>Header Files\gui\homescreen_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\homescreen_screen\HomeScreenViewBase.hpp">
-      <Filter>Header Files\generated\gui_generated\homescreen_screen</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\MJPEGDecoder.hpp">
       <Filter>Header Files\generated\simulator\include\simulator\video</Filter>
     </ClInclude>
@@ -675,6 +750,51 @@
     </ClInclude>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\SoftwareMJPEGDecoder.hpp">
       <Filter>Header Files\generated\simulator\include\simulator\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\s000_main_screen\S000_MainPresenter.hpp">
+      <Filter>Header Files\gui\s000_main_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\s000_main_screen\S000_MainView.hpp">
+      <Filter>Header Files\gui\s000_main_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\s000_main_screen\S000_MainViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\s000_main_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\s100_home_screen\S100_HomePresenter.hpp">
+      <Filter>Header Files\gui\s100_home_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\s100_home_screen\S100_HomeView.hpp">
+      <Filter>Header Files\gui\s100_home_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\s100_home_screen\S100_HomeViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\s100_home_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\s200_settings_screen\S200_SettingsPresenter.hpp">
+      <Filter>Header Files\gui\s200_settings_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\s200_settings_screen\S200_SettingsView.hpp">
+      <Filter>Header Files\gui\s200_settings_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\s200_settings_screen\S200_SettingsViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\s200_settings_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\s300_lang_screen\S300_LangPresenter.hpp">
+      <Filter>Header Files\gui\s300_lang_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\s300_lang_screen\S300_LangView.hpp">
+      <Filter>Header Files\gui\s300_lang_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\s300_lang_screen\S300_LangViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\s300_lang_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\s400_info_screen\S400_InfoPresenter.hpp">
+      <Filter>Header Files\gui\s400_info_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\s400_info_screen\S400_InfoView.hpp">
+      <Filter>Header Files\gui\s400_info_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\s400_info_screen\S400_InfoViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\s400_info_screen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

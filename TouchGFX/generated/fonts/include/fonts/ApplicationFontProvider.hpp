@@ -22,10 +22,10 @@ struct Typography
 struct TypographyFontIndex
 {
     static const touchgfx::FontId VALUESTYPE = 0;         // verdana_10_1bpp
-    static const touchgfx::FontId MAINSCREENNAMETYPE = 1; // arial_10_1bpp
-    static const touchgfx::FontId TOPICTYPE = 2;          // arial_12_1bpp
-    static const touchgfx::FontId HOMESCREENTEXT = 3;     // arial_18_1bpp
-    static const uint16_t NUMBER_OF_FONTS = 4;
+    static const touchgfx::FontId MAINSCREENNAMETYPE = 0; // verdana_10_1bpp
+    static const touchgfx::FontId TOPICTYPE = 1;          // verdana_12_1bpp
+    static const touchgfx::FontId HOMESCREENTEXT = 2;     // verdana_18_1bpp
+    static const uint16_t NUMBER_OF_FONTS = 3;
 };
 
 class ApplicationFontProvider : public touchgfx::FontProvider
