@@ -117,6 +117,15 @@
         "CanvasBufferSize": 1920,
         "Components": [
           {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 3,
+            "Y": 19,
+            "Width": 8,
+            "Height": 8,
+            "RelativeFilename": "arrow.png"
+          },
+          {
             "Type": "Line",
             "Name": "top_bar",
             "Y": 16,
@@ -131,6 +140,79 @@
             "EndX": 126.0,
             "LineWidth": 2.0,
             "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollableContainer1",
+            "X": 14,
+            "Y": 17,
+            "Width": 111,
+            "Height": 116,
+            "HorizontalScrollEnabled": true,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "rotationText",
+                "Width": 91,
+                "Height": 12,
+                "TextId": "__SingleUse_D5AO",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "TarPos",
+                  "UseBuffer": true,
+                  "BufferSize": 5
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "speedText",
+                "Y": 12,
+                "Width": 84,
+                "Height": 12,
+                "TextId": "__SingleUse_2J20",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "TarSpd",
+                  "UseBuffer": true,
+                  "BufferSize": 5
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "accText",
+                "Y": 24,
+                "Width": 100,
+                "Height": 12,
+                "TextId": "__SingleUse_IWPL",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "TarAcc",
+                  "UseBuffer": true,
+                  "BufferSize": 5
+                }
+              }
+            ]
           },
           {
             "Type": "TextArea",
@@ -152,6 +234,128 @@
         "Name": "S200_Settings",
         "CanvasBufferSize": 1920,
         "Components": [
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollableContainer1",
+            "X": 14,
+            "Y": 17,
+            "Width": 111,
+            "Height": 119,
+            "HorizontalScrollEnabled": true,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "rotationText",
+                "Width": 98,
+                "Height": 12,
+                "TextId": "__SingleUse_O38L",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "SetEncRes",
+                  "UseBuffer": true,
+                  "BufferSize": 10
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "speedText",
+                "Y": 12,
+                "Width": 70,
+                "Height": 12,
+                "TextId": "__SingleUse_YAWO",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "SetVmin",
+                  "UseBuffer": true,
+                  "BufferSize": 5
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "accText",
+                "Y": 24,
+                "Width": 69,
+                "Height": 12,
+                "TextId": "__SingleUse_V4RL",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "SetVmax",
+                  "UseBuffer": true,
+                  "BufferSize": 5
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "accText_1",
+                "Y": 36,
+                "Width": 60,
+                "Height": 12,
+                "TextId": "__SingleUse_41CE",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "SetImax",
+                  "UseBuffer": true,
+                  "BufferSize": 5
+                }
+              },
+              {
+                "Type": "TextArea",
+                "Name": "accText_1_1",
+                "Y": 48,
+                "Width": 56,
+                "Height": 12,
+                "TextId": "__SingleUse_VXU5",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true,
+                "Wildcard1": {
+                  "TextId": "SetDecay",
+                  "UseBuffer": true,
+                  "BufferSize": 4
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 3,
+            "Y": 19,
+            "Width": 8,
+            "Height": 8,
+            "RelativeFilename": "arrow.png"
+          },
           {
             "Type": "Line",
             "Name": "top_bar",
@@ -216,6 +420,43 @@
               "Green": 255,
               "Blue": 255
             }
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 3,
+            "Y": 19,
+            "Width": 8,
+            "Height": 8,
+            "RelativeFilename": "arrow.png"
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollableContainer1",
+            "X": 14,
+            "Y": 17,
+            "Width": 117,
+            "Height": 45,
+            "HorizontalScrollEnabled": true,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "textArea1",
+                "Width": 40,
+                "Height": 36,
+                "TextId": "__SingleUse_V8S2",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "AutoSize": true
+              }
+            ]
           }
         ],
         "Interactions": []

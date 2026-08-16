@@ -6,12 +6,13 @@
 #include <touchgfx/hal/Types.hpp>
 #include <touchgfx/Bitmap.hpp>
 
-const uint16_t BITMAP_FLEXIBLE_ID = 0;
-const uint16_t BITMAP_GEAR_ID = 1;
-const uint16_t BITMAP_HOUSE_48_ID = 2;
-const uint16_t BITMAP_INFO_ID = 3;
-const uint16_t BITMAP_LANGUAGE_ID = 4;
-const uint16_t BITMAP_SETTINGS_24_64_ID = 5;
+const uint16_t BITMAP_ARROW_ID = 0;
+const uint16_t BITMAP_FLEXIBLE_ID = 1;
+const uint16_t BITMAP_GEAR_ID = 2;
+const uint16_t BITMAP_HOUSE_48_ID = 3;
+const uint16_t BITMAP_INFO_ID = 4;
+const uint16_t BITMAP_LANGUAGE_ID = 5;
+const uint16_t BITMAP_SETTINGS_24_64_ID = 6;
 
 namespace BitmapDatabase
 {

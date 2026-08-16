@@ -41,6 +41,76 @@
         <Translation Language="PL">Autor: M. Majewski</Translation>
       </Text>
     </TextGroup>
+    <TextGroup Id="Unsorted">
+      <Text Id="SetDecay" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">Fast</Translation>
+        <Translation Language="PL">New Text</Translation>
+      </Text>
+      <Text Id="__SingleUse_VXU5" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">Dacay &lt;value&gt;</Translation>
+        <Translation Language="PL">New Text&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="SetImax" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">2</Translation>
+        <Translation Language="PL">New Text</Translation>
+      </Text>
+      <Text Id="__SingleUse_41CE" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">I max.: &lt;value&gt; A</Translation>
+        <Translation Language="PL">New Text&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="SetVmax" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">24</Translation>
+        <Translation Language="PL">New Text</Translation>
+      </Text>
+      <Text Id="SetVmin" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">2.5</Translation>
+        <Translation Language="PL">New Text</Translation>
+      </Text>
+      <Text Id="TarAcc" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">2000</Translation>
+        <Translation Language="PL">New Text</Translation>
+      </Text>
+      <Text Id="TarSpd" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">10</Translation>
+        <Translation Language="PL">New Text</Translation>
+      </Text>
+      <Text Id="TarPos" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">360</Translation>
+        <Translation Language="PL">New Text</Translation>
+      </Text>
+      <Text Id="__SingleUse_V4RL" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">V max.: &lt;value&gt; V</Translation>
+        <Translation Language="PL">New Text&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_YAWO" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">V min.: &lt;value&gt; V</Translation>
+        <Translation Language="PL">New Text&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_O38L" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">Enc. res.: &lt;value&gt; 1/n</Translation>
+        <Translation Language="PL">New Text&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_IWPL" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">Acc.: &lt;value&gt; deg/s^2</Translation>
+        <Translation Language="PL">New Text&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_2J20" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">Speed: &lt;value&gt; deg/s</Translation>
+        <Translation Language="PL">New Text&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="SetEncRes" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">4000</Translation>
+        <Translation Language="PL">New Text</Translation>
+      </Text>
+      <Text Id="__SingleUse_D5AO" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">Rotation: &lt;value&gt; deg</Translation>
+        <Translation Language="PL">New Text&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_V8S2" Alignment="Left" TypographyId="ValuesType">
+        <Translation Language="GB">English&#10;Deutsch&#10;Polski</Translation>
+        <Translation Language="PL">New Text</Translation>
+      </Text>
+    </TextGroup>
   </Texts>
   <Typographies>
     <Typography Id="ValuesType" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />

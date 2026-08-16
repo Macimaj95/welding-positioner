@@ -5,6 +5,7 @@
 #include <touchgfx/canvas_widget_renderer/CanvasWidgetRenderer.hpp>
 #include <touchgfx/Color.hpp>
 #include <texts/TextKeysAndLanguages.hpp>
+#include <images/BitmapDatabase.hpp>
 
 S300_LangViewBase::S300_LangViewBase()
 {
@@ -28,6 +29,21 @@ S300_LangViewBase::S300_LangViewBase()
     ScreenNameTxt.setLinespacing(0);
     ScreenNameTxt.setTypedText(touchgfx::TypedText(T_LANGSCRNAME));
     add(ScreenNameTxt);
+
+    image1.setXY(3, 19);
+    image1.setBitmap(touchgfx::Bitmap(BITMAP_ARROW_ID));
+    add(image1);
+
+    scrollableContainer1.setPosition(11, 19, 117, 45);
+    scrollableContainer1.setScrollbarsColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    scrollableContainer1.setScrollbarsAlpha(255);
+    textArea1.setXY(6, -2);
+    textArea1.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    textArea1.setLinespacing(0);
+    textArea1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_V8S2));
+    scrollableContainer1.add(textArea1);
+
+    add(scrollableContainer1);
 }
 
 S300_LangViewBase::~S300_LangViewBase()

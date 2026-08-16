@@ -11,6 +11,8 @@
 #include <touchgfx/widgets/canvas/Line.hpp>
 #include <touchgfx/widgets/canvas/PainterBW.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
+#include <touchgfx/widgets/Image.hpp>
+#include <touchgfx/containers/ScrollableContainer.hpp>
 
 class S300_LangViewBase : public touchgfx::View<S300_LangPresenter>
 {
@@ -31,6 +33,9 @@ protected:
     touchgfx::Line top_bar;
     touchgfx::PainterBW top_barPainter;
     touchgfx::TextArea ScreenNameTxt;
+    touchgfx::Image image1;
+    touchgfx::ScrollableContainer scrollableContainer1;
+    touchgfx::TextArea textArea1;
 
 private:
 
